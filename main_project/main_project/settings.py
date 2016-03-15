@@ -95,6 +95,12 @@ DATABASES = {
     }
 }
 
+# Migrations module
+
+# MIGRATION_MODULES = {
+#
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -144,3 +150,7 @@ STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.AppDirectoriesFinder"
 )
 
+# Media files folders and urls
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")

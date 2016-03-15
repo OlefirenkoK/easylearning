@@ -46,6 +46,7 @@ coverage.xml
 .hypothesis/
 
 # Translations
+/.idea/workspace.xml
 *.mo
 *.pot
 
@@ -63,4 +64,3 @@ target/
 
 #Idea components
 *.idea/
-

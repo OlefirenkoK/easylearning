@@ -1,0 +1,4 @@
+All models must keep in main_project.api.models All helpers components static
+variables keep in models_helper.py. After create new model you must add it to
+api.models.__init__.py .
+# TODO: create singleton object varstore to keep static variable and components use in project.
